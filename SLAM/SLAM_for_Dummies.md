@@ -460,7 +460,7 @@ X & X_N & Y_N \\
 $$
 Also we need to add a new row and column to the covariance matrix, shown in the figure below as the grey area.
 
-![屏幕快照 2017-12-18 21.26.51](../../Downloads/屏幕快照 2017-12-18 21.26.51.png)
+![屏幕快照 2018-01-10 10.05.15](屏幕快照 2018-01-10 10.05.15.png)
 
 First we add the covariance for the new landmark in the cell **C**, also called **P^N+1,N+1^**.
 $$
