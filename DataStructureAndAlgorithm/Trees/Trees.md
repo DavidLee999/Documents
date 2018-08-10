@@ -1,3 +1,43 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Trees](#trees)
+  - [Preliminaries](#preliminaries)
+    - [Implmentation of Trees](#implmentation-of-trees)
+    - [Tree Traversals](#tree-traversals)
+  - [Binary Trees](#binary-trees)
+    - [Implementation](#implementation)
+  - [Binary Search Trees](#binary-search-trees)
+    - [Consturctor](#consturctor)
+    - [`contains` function](#contains-function)
+    - [`insert` function](#insert-function)
+    - [`findMin` and `findMax`](#findmin-and-findmax)
+    - [`remove` function](#remove-function)
+    - [Desturctor](#desturctor)
+    - [Remark](#remark)
+    - [Average-Case Analysis](#average-case-analysis)
+  - [AVL Trees](#avl-trees)
+    - [Single Rotation](#single-rotation)
+    - [Double Rotation](#double-rotation)
+    - [Summary](#summary)
+    - [Implementation](#implementation-1)
+      - [Node](#node)
+      - [`insert` method](#insert-method)
+      - [`balance` method](#balance-method)
+      - [`remove` method](#remove-method)
+  - [Splay Trees](#splay-trees)
+    - [A (not working) simple idea](#a-not-working-simple-idea)
+    - [Splaying](#splaying)
+    - [Deletion:](#deletion)
+  - [B-Trees](#b-trees)
+    - [Operations:](#operations)
+      - [Insertion:](#insertion)
+      - [Remove：](#remove)
+  - [树的遍历](#%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Trees
 
 The average running time of most operations is O(logN).
